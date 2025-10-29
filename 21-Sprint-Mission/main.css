@@ -219,3 +219,97 @@ a:hover {
   display: flex;
   gap: 15px;
 }
+
+/* 아래부턴 login.css입니다. */
+
+.login__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 640px;
+  height: 520px;
+  margin: 280px auto;
+}
+
+.login__group {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 640px;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.login__group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.login__label {
+  font-family: pretendard;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #1f2937;
+}
+
+.login__input {
+  width: 640px;
+  height: 56px;
+  border: none;
+  border-radius: 12px;
+  background-color: #f3f4f6;
+  font-family: pretendard;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1f2937;
+  padding: 15px 20px;
+}
+
+.login__button {
+  width: 640px;
+  height: 56px;
+  border: none;
+  border-radius: 40px;
+  background-color: #3692ff;
+  color: white;
+  padding: 16px 124px;
+  font-family: pretendard;
+  font-weight: 600;
+  font-weight: semibold;
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__signup-text {
+  font-family: pretendard;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  font-style: medium;
+  color: #1f2937;
+  text-align: center;
+  margin-top: -24px;
+}
+
+.login__signup-link {
+  color: #3692ff;
+  font-family: pretendard;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+}
+.signup .login__signup {
+  margin-top: 32px;
+}
