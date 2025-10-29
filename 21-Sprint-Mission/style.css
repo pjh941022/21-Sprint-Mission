@@ -17,10 +17,17 @@ nav {
   height: 48px;
   text-align: center;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Pretendard;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .nav_button:hover {
   cursor: pointer;
@@ -71,7 +78,7 @@ nav img {
   font-family: Pretendard;
   font-weight: 700;
   font-style: Bold;
-  font-size: 40px;
+  font-size: 38px;
   line-height: 140%;
   letter-spacing: 0%;
   vertical-align: middle;
@@ -133,7 +140,7 @@ main {
   font-family: Pretendard;
   font-weight: 700;
   font-style: Bold;
-  font-size: 40px;
+  font-size: 38px;
   line-height: 140%;
   letter-spacing: 2%;
   vertical-align: middle;
