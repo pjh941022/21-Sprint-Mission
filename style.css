@@ -100,6 +100,11 @@ nav img {
   text-align: center;
   font-family: Pretendard;
 }
+.banner-section .title {
+  margin-bottom: 0;
+  max-width: 15ch;
+  word-break: keep-all;
+}
 main {
   width: 100%;
   height: auto;
@@ -130,10 +135,8 @@ main {
 .card p {
   font-family: Abhaya Libre ExtraBold;
   font-weight: 800;
-  font-style: Regular;
   font-size: 18px;
   line-height: 26px;
-  letter-spacing: 0%;
   vertical-align: middle;
   height: 26px;
   color: #3692ff;
@@ -232,9 +235,12 @@ a:hover {
 
 /* 미디어 쿼리 */
 
-@media (min-width: 768px) and (max-width: 1198px) {
-  .nav {
-    width: 744px;
+@media (min-width: 768px) and (max-width: 1199px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
     height: 70px;
     border-bottom: 1px solid #dfdfdf;
     padding: 0 24px;
@@ -259,10 +265,10 @@ a:hover {
   .banner_image {
     width: 100%;
   }
-  h2 br {
-    display: none;
-  }
 
+  .banner-section .title {
+    max-width: 100%;
+  }
   .banner_title .h2 {
     font-weight: 700;
     font-size: 40px;
@@ -358,11 +364,36 @@ a:hover {
     height: 160px;
     padding: 32px 104px 62px 104px;
   }
+
+  .footer_row-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .footer_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+  }
+  .footer_links a {
+    color: #9ca3af;
+  }
+  .footer_socials {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+  }
+  .footer_info p {
+    white-space: nowrap;
+  }
 }
 /* 모바일 미디어 쿼리 */
 @media (min-width: 375px) and (max-width: 767px) {
-  .nav {
-    width: auto;
+  nav {
+    width: 100%;
     height: 70px;
     border-bottom: 1px solid #dfdfdf;
     padding: 0 16px;
@@ -370,7 +401,7 @@ a:hover {
   .main {
     width: 100%;
   }
-  h2 br .banner {
+  .banner h2 br {
     display: block;
   }
   .banner_inner {
@@ -498,6 +529,7 @@ a:hover {
   .footer_info {
     display: flex;
     width: 100%;
+    margin-top: 50px;
   }
 
   .footer_row-top {

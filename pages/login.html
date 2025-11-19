@@ -16,7 +16,7 @@
         <a href="../index.html">
           <img class="login__image" src="../img/login.svg" alt="아이콘" />
         </a>
-        <form class="login__form" action="#" method="post">
+        <form class="login__form" action="#">
           <div class="login__group">
             <label class="login__label" for="email">이메일</label>
             <input
@@ -27,6 +27,7 @@
               placeholder="이메일을 입력해주세요"
               required
             />
+            <p class="login__error-message email"></p>
           </div>
 
           <div class="login__group">
@@ -40,7 +41,7 @@
                 placeholder="비밀번호를 입력해주세요"
                 required
               />
-
+              <p class="login__error-message password"></p>
               <svg
                 class="login__input-icon"
                 width="21"
@@ -56,7 +57,7 @@
               </svg>
             </div>
           </div>
-          <button class="login__button" type="submit">로그인</button>
+          <button class="login__button" type="button">로그인</button>
         </form>
         <div class="social__login">
           <div class="social__login-title">간편 로그인하기</div>
@@ -73,5 +74,6 @@
         </div>
       </div>
     </main>
+    <script src="../login.js"></script>
   </body>
 </html>

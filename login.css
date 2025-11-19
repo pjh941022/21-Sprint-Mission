@@ -40,6 +40,11 @@
   width: 100%;
 }
 
+.login__group p {
+  margin: 6px 0 0 0;
+  color: red;
+}
+
 .login__label {
   font-family: pretendard;
   font-weight: 700;
